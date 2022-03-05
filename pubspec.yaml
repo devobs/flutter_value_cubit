@@ -1,0 +1,24 @@
+name: flutter_value_cubit
+description: Help handling in widget the states with [BaseState] from value_cubit package.
+repository: https://github.com/devobs/flutter_value_cubit
+homepage: https://github.com/devobs
+version: 0.0.1
+
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+  flutter: ">=3.0.1"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+
+  value_cubit: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
